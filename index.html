@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fibionacci</title>
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-SgOJa3DmI69IUzQ2PVdRZhwQ+dy64/BUtbMJw1MZ8t5HZApcHrRKUc4W0kG879m7" crossorigin="anonymous">
+    
+</head>
+<body>
+    <div class="position-absolute top-50 start-50 translate-middle">
+        <div class="card d-flex  flex-column" style="width: 28rem; height: 20rem;">
+            <h3 class=" align-self-center my-4">Calculadora Fibionacci</h3>
+
+            <div class="card-body d-flex align-items-center">
+                <div data-mdb-input-init class="form-outline mb-4 flex-fill px-2">
+                    <label class="form-label " for="fibionacci">Ingresa un número natural</label>
+                    <!-- como es tipo number no se puede ingresar otra cosa que no sean números -->
+                    <input type="number" id="fibionacci-input" name="fibionacci" class="form-control" min="0" value="0" />
+                </div>
+            </div>
+            <div class="card-footer mt-auto d-flex justify-content-center ">
+                <button type="button" class="btn btn-light" id="fibionacci-btn">Calcular</button>
+            </div>
+
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.bundle.min.js" integrity="sha384-k6d4wzSIapyDyv1kpU366/PK5hCdSbCRGRCMv+eplOQJWyd1fbcAu9OCUj5zNLiq" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="./assets/js/index.js"></script>
+    
+</body>
+</html>
